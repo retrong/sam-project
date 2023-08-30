@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/junegull');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.mainlogo{
+    font-family: 'Junegull', sans-serif;
+    font-weight: 400;
+    color: #f28321;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+    .mainlogo{
+        letter-spacing: 2px;
+    }
+}
+
+.logo p{
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
