@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../../style';
 // import Navbar from '../organisms/Navbar';
+import Body from '../organisms/Body';
 import Footer from '../organisms/Footer';
 
 export default function LandingPage() {
@@ -9,6 +10,7 @@ export default function LandingPage() {
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
                 {/* <Navbar /> */}
+                <Body />
                 <Footer />
             </div>
         </div>

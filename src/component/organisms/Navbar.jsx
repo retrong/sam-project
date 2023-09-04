@@ -20,7 +20,7 @@ const Navbar = () => {
                     <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                         {navLinks.map((nav, index) => (
                             <li 
-                                key={nav.id} 
+                                key={nav.id}
                                 className={`font-poppins font-normal hover:text-secondary cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-10' } text-slate-600`}>
                                 <Link to={`${nav.id}`}>
                                     {nav.title}
@@ -37,7 +37,7 @@ const Navbar = () => {
                             onClick={() => setToggle((prev) => !prev)}
                         />
 
-                        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-slate-50 border-2 absolute top-0 left-0 h-full z-[100] min-w-[80%]`}>
+                        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-slate-50 border-2 absolute top-0 left-0 h-full z-[100] max-w-[80%]`}>
                             
                             <ul className='list-none flex flex-col items-start px-6 py-4 flex-1'>
                                 {navLinks.map((nav, index) => (

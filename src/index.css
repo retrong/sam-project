@@ -14,7 +14,7 @@
     font-family: 'Junegull', sans-serif;
     font-weight: 400;
     color: #f28321;
-    letter-spacing: 9px;
+    letter-spacing: 7px;
     text-transform: uppercase;
 }
 
@@ -28,4 +28,33 @@
     font-size: 14px;
     font-weight: normal;
     letter-spacing: 2px;
+}
+
+.profile-img{
+    clip-path: circle();
+    max-width: 70%;
+}
+
+.about-btn{
+    font-family: 'Junegull', sans-serif;
+    font-size: 20px;
+    padding: 10px 14px;
+    font-weight: 400;
+    border: 2px solid #f28321;
+    color: #f28321;
+    margin-top: 24px;
+}
+
+.about-btn:hover{
+    border: 2px solid #f48d34;
+    color: #f7a965;
+}
+
+.body-content{
+    background: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 400px;
 }
