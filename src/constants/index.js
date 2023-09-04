@@ -1,22 +1,22 @@
-import { facebook, gt, gt2, instagram, linkedin, twitter } from '../assets';
+import { cd1, cd2, cd3, cd4, cd5, cd6, facebook, instagram, linkedin, twitter } from '../assets';
 
 export const navLinks = [
-    {
-        id: "/",
-        title: "Home",
-    },
-    {
-        id: "series",
-        title: "Series Portfolio",
-    },
-    {
-        id: "sketches",
-        title: "Sketches",
-    },
-    {
-        id: "about",
-        title: "About",
-    },
+	{
+		id: '/',
+		title: 'Home',
+	},
+	{
+		id: 'cd',
+		title: 'CD & VD',
+	},
+	{
+		id: 'sketches',
+		title: 'Animation/LD',
+	},
+	{
+		id: 'about',
+		title: 'about',
+	},
 ];
 export const socialMedia = [
 	{
@@ -44,37 +44,39 @@ export const socialMedia = [
 export const images = [
 	{
 		id: 'img-1',
-		icon: gt,
+		icon: cd1,
+        width: 100,
+        height: 100,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb bsafkblslf',
 	},
 	{
 		id: 'img-2',
-		icon: gt2,
+		icon: cd2,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb',
 	},
 	{
 		id: 'img-3',
-		icon: gt,
+		icon: cd3,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb',
 	},
 	{
 		id: 'img-4',
-		icon: gt2,
+		icon: cd4,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb',
 	},
 	{
 		id: 'img-5',
-		icon: gt,
+		icon: cd5,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb',
 	},
 	{
 		id: 'img-6',
-		icon: gt2,
+		icon: cd6,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb',
 	},

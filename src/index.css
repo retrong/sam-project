@@ -35,6 +35,14 @@
     max-width: 70%;
 }
 
+.active {
+    color: #f28321;
+}
+
+.pending{
+    @apply text-slate-600;
+}
+
 .about-btn{
     font-family: 'Junegull', sans-serif;
     font-size: 20px;
@@ -51,10 +59,15 @@
 }
 
 .body-content{
-    background: scroll;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
     max-height: 400px;
+}
+
+@media (max-width: 1100px) {
+    .body-content{
+        height: 300px;
+    }
 }

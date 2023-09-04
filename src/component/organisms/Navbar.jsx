@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { close, menu } from '../../assets';
 import { navLinks } from '../../constants';
 import styles from '../../style';
@@ -13,7 +13,12 @@ const Navbar = () => {
             <div className={`${styles.boxWidth}`}>
                 <nav className='w-full flex py-6 justify-between items-center'>
                     <div className='logo'>
-                        <Link to='/' ><h1 className='mainlogo md:text-[38px] text-[28px]'>Ifinedo Azor</h1></Link>
+                        <NavLink to='/' >
+                            <h1 
+                                className={`${(isActive, isPending) => {isPending ? "pending" : isActive ? "active" : ""}} mainlogo md:text-[38px] text-[28px]`}>
+                                    Ifinedo Azor
+                            </h1>
+                        </NavLink>
                         <p className='text-slate-600 xs:w-full w-[250px] '>character design | visual development</p>
                     </div>
 
@@ -21,10 +26,10 @@ const Navbar = () => {
                         {navLinks.map((nav, index) => (
                             <li 
                                 key={nav.id}
-                                className={`font-poppins font-normal hover:text-secondary cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-10' } text-slate-600`}>
-                                <Link to={`${nav.id}`}>
+                                className={`font-poppins font-normal hover:text-secondary cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-8' } text-slate-600`}>
+                                <NavLink to={`${nav.id}`}>
                                     {nav.title}
-                                </Link>
+                                </NavLink>
                             </li>
                         ))}
 

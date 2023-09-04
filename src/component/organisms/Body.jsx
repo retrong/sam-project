@@ -1,37 +1,60 @@
 import React from 'react';
-// import { gt, gt2 } from '../../assets';
+import { one, six, three, two } from '../../assets';
 import { images } from '../../constants';
 import styles from '../../style';
 
 const Body = () => {
   return (
-    <section className={`w-full ${styles.paddingY} ${styles.flexCenter}`}>
-        <div className='w-[100%]'>
-            {/* <div className=''>
-                <img src={gt} alt="img"  className='w-[100%] h-[300px] sm:h-[400px] object-cover object-bottom'/>
-            </div>
-            <div className='mt-10'>
-                <img src={gt2} alt="img"  className='w-[100%] h-[450px] object-cover object-bottom'/>
-            </div> */}
+		<section className={`w-full ${styles.paddingY} ${styles.flexCenter}`}>
+			<div className="w-[90%] md:w-[80%]">
 
-            {images.map((image, index) => (
-                <div key={image.id} className={`w-[100%] px-10 sm:px-28 ${index !== images.length - 1 ? 'mb-20' : 'mb-0' }`}>
-                    <img 
-                        src={image.icon} 
-                        alt={image.id}
-                        className='w-[100%] h-[400px] object-cover object-center'
-                    />
-                    <p className='bg-black text-dimWhite py-2 px-4 flex justify-end'>
-                        {image.title}
-                    </p>
+				<video
+					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
+					controls
+				>
+					<source src={one} />
+				</video>
 
-                </div>
-            ))}
+				{images.map((image, index) => (
+					<div
+						key={image.id}
+						className={`w-[100%] ${
+							index !== images.length - 1 ? 'mb-20' : 'mb-0'
+						}`}
+					>
+						<img
+							src={image.icon}
+							alt={image.id}
+							className="w-[100%] max-h-96 object-cover object-top"
+							loading="lazy"
+						/>
+						<p className="bg-black text-dimWhite py-2 px-4 flex justify-end">
+							{image.title}
+						</p>
+					</div>
+				))}
 
-
-        </div>
-    </section>
-  )
+				<video
+					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
+					controls
+				>
+					<source src={two} />
+				</video>
+				<video
+					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
+					controls
+				>
+					<source src={six} />
+				</video>
+				<video
+					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
+					controls
+				>
+					<source src={three} />
+				</video>
+			</div>
+		</section>
+	);
 }
 
 export default Body

@@ -5,6 +5,7 @@ import styles from '../../style';
 
 export default function ErrorPage() {
 	const error = useRouteError();
+    console.error(error);
 	return (
 		<section
 			id="error-page"
