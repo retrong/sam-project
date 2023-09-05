@@ -19,13 +19,13 @@ const Body = () => {
 					<div
 						key={image.id}
 						className={`w-[100%] ${
-							index !== images.length - 1 ? 'mb-20' : 'mb-0'
+							index !== images.length - 1 ? 'mb-20' : 'mb-20'
 						}`}
 					>
 						<img
 							src={image.icon}
 							alt={image.id}
-							className="w-[100%] max-h-96 object-cover object-top"
+							className="w-[100%] h-full object-cover object-top"
 							loading="lazy"
 						/>
 						<p className="bg-black text-dimWhite py-2 px-4 flex justify-end">

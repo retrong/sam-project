@@ -15,7 +15,7 @@ export const navLinks = [
 	},
 	{
 		id: 'about',
-		title: 'about',
+		title: 'About',
 	},
 ];
 export const socialMedia = [
@@ -45,14 +45,16 @@ export const images = [
 	{
 		id: 'img-1',
 		icon: cd1,
-        width: 100,
-        height: 100,
+        width: 4,
+        height: 9,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb bsafkblslf',
 	},
 	{
 		id: 'img-2',
 		icon: cd2,
+        width: 1125,
+        height: 2500,
 		title:
 			'loremdfsjb sfdufushiuasu jsafsbfabfa shfbshbfkhfb bsafbkb',
 	},
