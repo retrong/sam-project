@@ -45,12 +45,11 @@
 
 .about-btn{
     font-family: 'Junegull', sans-serif;
-    font-size: 20px;
-    padding: 10px 14px;
+    font-size: 16px;
+    padding: 12px 45px;
     font-weight: 400;
     border: 2px solid #f28321;
     color: #f28321;
-    margin-top: 24px;
 }
 
 .about-btn:hover{
