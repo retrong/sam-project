@@ -11,7 +11,7 @@ const drops = ['four', 'eight']
 export default function CharacterDesign() {
     
   return (
-		<section className="w-full overflow-hidden">
+		<section className="w-full overflow-hidden" loading="lazy">
 			<div
 				className={`${styles.paddingX} ${styles.flexCenter} ${styles.paddingY}`}
 			>

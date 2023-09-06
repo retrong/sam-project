@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
                 <nav className='w-full flex py-6 justify-between items-center'>
-                    <div className='logo'>
+                    <div className='logo mr-10'>
                         <NavLink to='/' >
                             <h1 
                                 className={`${(isActive, isPending) => {isPending ? "pending" : isActive ? "active" : ""}} mainlogo md:text-[38px] text-[28px]`}>
@@ -22,7 +22,7 @@ const Navbar = () => {
                         <p className='text-slate-600 xs:w-full w-[250px] '>character design | visual development</p>
                     </div>
 
-                    <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+                    <ul className='list-none md:flex hidden justify-end items-center flex-1'>
                         {navLinks.map((nav, index) => (
                             <li 
                                 key={nav.id}
@@ -35,10 +35,10 @@ const Navbar = () => {
 
                     </ul>
 
-                    <div className='sm:hidden flex flex-1 justify-end items-center'>
+                    <div className='md:hidden flex flex-1 justify-end items-center'>
                         <img 
                             src={toggle ? close : menu} alt="menu"
-                            className='w-[28px] h-[28px] object-contain'  
+                            className='w-[28px] h-[28px] object-contain cursor-pointer'  
                             onClick={() => setToggle((prev) => !prev)}
                         />
 
@@ -48,7 +48,7 @@ const Navbar = () => {
                                 {navLinks.map((nav, index) => (
                                     <li 
                                         key={nav.id} 
-                                        className={`font-poppins font-normal hover:text-secondary cursor-pointer text-[30px] ${index === navLinks.length -1 ? 'mr-0' : 'mb-2' } text-slate-600`}>
+                                        className={`font-poppins font-normal hover:text-secondary cursor-pointer sm:text-[20px] text-[16px] ${index === navLinks.length -1 ? 'mb-0' : 'mb-5' } text-slate-600`}>
                                         <a href={`${nav.id}`}>
                                             {nav.title}
                                         </a>

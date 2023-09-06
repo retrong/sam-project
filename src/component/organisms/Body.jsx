@@ -7,13 +7,17 @@ const Body = () => {
   return (
 		<section className={`w-full ${styles.paddingY} ${styles.flexCenter}`}>
 			<div className="w-[90%] md:w-[80%]">
-
-				<video
-					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
-					controls
-				>
-					<source src={one} />
-				</video>
+				<div className='mb-20'>
+					<video
+						className="w-full h-auto max-w-full object-cover object-bottom"
+						controls
+					>
+						<source src={one} loading="lazy" />
+					</video>
+					<p className="bg-black text-dimWhite py-2 px-4 flex justify-end">
+						azornedo@gmail.com | Ifinedo Azor
+					</p>
+				</div>
 
 				{images.map((image, index) => (
 					<div
@@ -34,24 +38,39 @@ const Body = () => {
 					</div>
 				))}
 
-				<video
-					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
-					controls
-				>
-					<source src={two} />
-				</video>
-				<video
-					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
-					controls
-				>
-					<source src={six} />
-				</video>
-				<video
-					className="w-full h-[450px] max-w-full mb-20 object-cover object-bottom"
-					controls
-				>
-					<source src={three} />
-				</video>
+				<div className="mb-20">
+					<video
+						className="w-full h-auto max-w-full object-cover object-bottom"
+						controls
+					>
+						<source src={two} loading="lazy" />
+					</video>
+					<p className="bg-black text-dimWhite py-2 px-4 flex justify-end">
+						azornedo@gmail.com | Ifinedo Azor
+					</p>
+				</div>
+				<div className="mb-20">
+					<video
+						className="w-full h-auto max-w-full object-cover object-bottom"
+						controls
+					>
+						<source src={six} loading="lazy" />
+					</video>
+					<p className="bg-black text-dimWhite py-2 px-4 flex justify-end">
+						azornedo@gmail.com | Ifinedo Azor
+					</p>
+				</div>
+				<div className="mb-10">
+					<video
+						className="w-full h-auto max-w-full object-cover object-bottom"
+						controls
+					>
+						<source src={three} loading="lazy" />
+					</video>
+					<p className="bg-black text-dimWhite py-2 px-4 flex justify-end">
+						azornedo@gmail.com | Ifinedo Azor
+					</p>
+				</div>
 			</div>
 		</section>
 	);
