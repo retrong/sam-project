@@ -1,12 +1,12 @@
-import cd1 from './characterDesign/1.png';
-import cd2 from './characterDesign/2.png';
-import cd3 from './characterDesign/3.jpg';
-import cd4 from './characterDesign/4.png';
-import cd5 from './characterDesign/5.png';
-import cd6 from './characterDesign/6.jpg';
-import cd7 from './characterDesign/7.jpg';
-import cd8 from './characterDesign/8.jpg';
-import cd9 from './characterDesign/9.png';
+import cd1 from './characterDesign/1.webp';
+import cd2 from './characterDesign/2.webp';
+import cd3 from './characterDesign/3.webp';
+import cd4 from './characterDesign/4.webp';
+import cd5 from './characterDesign/5.webp';
+import cd6 from './characterDesign/6.webp';
+import cd7 from './characterDesign/7.webp';
+import cd8 from './characterDesign/8.webp';
+import cd9 from './characterDesign/9.webp';
 import close from './close.png';
 import instagram from './instagram.svg';
 import linkedin from './linkedin.svg';
@@ -14,12 +14,12 @@ import loader from './loader.gif';
 import logo from './logo.png';
 import menu from './menu.svg';
 import profile from './profile.png';
-import one from './videos/1.mp4';
-import two from './videos/2.mp4';
-import three from './videos/3.mp4';
-import four from './videos/4.mp4';
-import five from './videos/5.mp4';
-import six from './videos/6.mp4';
+import one from './videos/1.webm';
+import two from './videos/2.webm';
+import three from './videos/3.webm';
+import four from './videos/4.webm';
+import five from './videos/5.webm';
+import six from './videos/6.webm';
 
 
 

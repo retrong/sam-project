@@ -36,9 +36,6 @@ export default function About() {
 							<a href="" className="text-black text-[18px] font-bold py-9">
 								azornedo@gmail.com
 							</a>
-							<button className="about-btn rounded-full min-w-max">
-								View resume
-							</button>
 						</div>
 					</div>
 				</div>

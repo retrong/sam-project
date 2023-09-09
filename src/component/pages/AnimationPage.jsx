@@ -11,7 +11,7 @@ export default function AnimationPage() {
 		<section className="w-full overflow-hidden">
 			<div className={`${styles.paddingX} ${styles.flexCenter} ${styles.paddingY}`}
 			>
-				<div className={`${styles.boxWidth} w-[90%] md:w-[85%]`}>
+				<div className={`${styles.boxWidth} w-[95%] md:w-[85%]`}>
                     <Suspense fallback={<Loading/>}>
                         <Animate />
                     </Suspense>

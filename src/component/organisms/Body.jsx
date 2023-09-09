@@ -6,7 +6,7 @@ import styles from '../../style';
 const Body = () => {
   return (
 		<section className={`w-full ${styles.paddingY} ${styles.flexCenter}`}>
-			<div className="w-[90%] md:w-[80%]">
+			<div className="w-[95%] md:w-[85%]">
 				<div className='mb-20'>
 					<video
 						className="w-full h-auto max-w-full object-cover object-bottom"

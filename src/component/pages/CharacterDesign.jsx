@@ -1,6 +1,6 @@
 import React from 'react';
 import { imagespath, nine } from '../../assets/characterDesign';
-import { pic1, pic2, pic3, pic4 } from '../../assets/vd';
+import { pic1, pic2, pic3, pic4 } from '../../assets/visual-design';
 import styles from '../../style';
 
 
@@ -15,7 +15,7 @@ export default function CharacterDesign() {
 			<div
 				className={`${styles.paddingX} ${styles.flexCenter} ${styles.paddingY}`}
 			>
-				<div className={`${styles.boxWidth} px-10`}>
+				<div className={`${styles.boxWidth} w-[95%] md:w-[85%]`}>
 					<h1
 						className={`font-poppins font-semibold xs:text-[36px] text-[30px] text-white xs:leading-[65.8px] leading-[48.8px] w-full text-center mainlogo px-5 mb-20`}
 					>
