@@ -13,7 +13,7 @@ import linkedin from './linkedin.svg';
 import loader from './loader.gif';
 import logo from './logo.png';
 import menu from './menu.svg';
-import profile from './profile.png';
+import profile from './profile.webp';
 import one from './videos/1.webm';
 import two from './videos/2.webm';
 import three from './videos/3.webm';
