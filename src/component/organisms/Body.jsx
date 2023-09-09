@@ -1,5 +1,5 @@
 import React from 'react';
-import { five, four, one, six, three, two } from '../../assets';
+import { one, six, three, two } from '../../assets';
 import { drawings, img6 } from '../../assets/liveDrawing';
 import { pic1, pic2, pic3, pic4 } from '../../assets/visual-design';
 import { images } from '../../constants';
@@ -129,22 +129,6 @@ const Body = () => {
 						controls
 					>
 						<source src={three} loading="lazy" />
-					</video>
-				</div>
-				<div className="mb-10">
-					<video
-						className="w-full h-auto max-w-full object-cover object-bottom"
-						controls
-					>
-						<source src={five} loading="lazy" />
-					</video>
-				</div>
-				<div className="mb-10">
-					<video
-						className="w-full h-auto max-w-full object-cover object-bottom"
-						controls
-					>
-						<source src={four} loading="lazy" />
 					</video>
 				</div>
 			</div>
