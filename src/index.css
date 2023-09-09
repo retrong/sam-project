@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/junegull');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
 
 @tailwind base;
 @tailwind components;
@@ -11,8 +11,8 @@
 }
 
 .mainlogo{
-    font-family: 'Junegull', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #f28321;
     letter-spacing: 7px;
     text-transform: uppercase;
@@ -41,15 +41,6 @@
 
 .pending{
     @apply text-slate-600;
-}
-
-.about-btn{
-    font-family: 'Junegull', sans-serif;
-    font-size: 16px;
-    padding: 12px 45px;
-    font-weight: 400;
-    border: 2px solid #f28321;
-    color: #f28321;
 }
 
 .about-btn:hover{
