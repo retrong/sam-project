@@ -29,11 +29,14 @@ export default function About() {
 								the year after that. My portfolio shows my work so far.
 							</h3>
 							<h3 className="font-poppins text-[18px] leading-[24px] text-slate-500 italic tracking-widest">
-                                It’s my dream to work with creatives like myself, making visually
-								outstanding and captivating shows to inspire the next generation
-								of artists just as I was inspired.
+								It’s my dream to work with creatives like myself, making
+								visually outstanding and captivating shows to inspire the next
+								generation of artists just as I was inspired.
 							</h3>
-							<a href="" className="text-black text-[18px] font-bold py-9">
+							<a
+								href="mailto: azornedo@gmail.com"
+								className="text-black text-[18px] font-bold py-9"
+							>
 								azornedo@gmail.com
 							</a>
 						</div>
