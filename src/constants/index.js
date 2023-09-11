@@ -5,14 +5,14 @@ export const navLinks = [
 		id: '/',
 		title: 'Portfolio',
 	},
-	{
-		id: 'cd',
-		title: 'Character Design & Visual Development',
-	},
-	{
-		id: 'animate',
-		title: 'Animation & Live Drawing',
-	},
+	// {
+	// 	id: 'cd',
+	// 	title: 'Character Design & Visual Development',
+	// },
+	// {
+	// 	id: 'animate',
+	// 	title: 'Animation & Live Drawing',
+	// },
 	{
 		id: 'about',
 		title: 'About',

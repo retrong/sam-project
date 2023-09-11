@@ -13,7 +13,7 @@
 .mainlogo{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #f28321;
+    color: #beadfa;
     letter-spacing: 7px;
     text-transform: uppercase;
 }
@@ -36,16 +36,11 @@
 }
 
 .active {
-    color: #f28321;
+    color: #beadfa;
 }
 
 .pending{
     @apply text-slate-600;
-}
-
-.about-btn:hover{
-    border: 2px solid #f48d34;
-    color: #f7a965;
 }
 
 .body-content{
