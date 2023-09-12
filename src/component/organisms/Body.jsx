@@ -193,14 +193,6 @@ const Body = () => {
 						className="w-full h-auto max-w-full object-cover object-bottom"
 						controls
 					>
-						<source src={six} loading="lazy" />
-					</video>
-				</div>
-				<div className="mb-10 sm:mb-20">
-					<video
-						className="w-full h-auto max-w-full object-cover object-bottom"
-						controls
-					>
 						<source src={four} loading="lazy" />
 					</video>
 				</div>
