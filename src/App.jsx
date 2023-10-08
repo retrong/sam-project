@@ -12,8 +12,6 @@ function App() {
 			<Routes>
 				<Route path="/" element={<LandingPage />}></Route>
 				<Route path="*" element={<Error />}></Route>
-				{/* <Route path="/cd" element={<CharacterDesign />}></Route>
-				<Route path="/animate" element={<AnimationPage />}></Route> */}
 				<Route path="/about" element={<About />}></Route>
 			</Routes>
             <Footer />

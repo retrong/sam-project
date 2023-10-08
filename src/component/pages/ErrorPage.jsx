@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useRouteError } from 'react-router-dom';
-import { logo } from '../../assets';
 import styles from '../../style';
 
 export default function ErrorPage() {
@@ -12,7 +11,6 @@ export default function ErrorPage() {
 			className={`${styles.boxWidth} ${styles.flexCenter}`}
 		>
 			<div className="flex flex-col items-center">
-				<img src={logo} alt="error" className='w-[250px] h-28' />
 				<div
 					className={`${styles.paddingY} font-cabin font-semibold text-[20px] leading-[28px] flex flex-col justify-center items-center`}
 				>

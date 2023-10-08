@@ -11,7 +11,6 @@ import close from './close.png';
 import instagram from './instagram.svg';
 import linkedin from './linkedin.svg';
 import loader from './loader.gif';
-import logo from './logo.png';
 import menu from './menu.svg';
 import profile from './profile.webp';
 import one from './videos/1.webm';
@@ -28,7 +27,7 @@ export {
     cd1, cd2, cd3, cd4, cd5, cd6, cd7, cd8, cd9, close, five,
     four,
     instagram,
-    linkedin, loader, logo,
+    linkedin, loader,
     menu,
     one,
     profile, six, three, two
